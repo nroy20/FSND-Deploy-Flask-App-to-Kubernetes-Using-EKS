@@ -31,7 +31,7 @@ spec:
     spec:
       containers:
         - name: simple-jwt-api
-          image: CONTAINER_IMAGE
+          image: 971676612243.dkr.ecr.us-east-2.amazonaws.com/udaci-ecrdo-1mbjndcvb36g9:FSND-Deploy-Flask-App-to-Kubernetes-Using-EKS.master..2020-07-22.18.45.33.559049d2
           securityContext:
             privileged: false
             readOnlyRootFilesystem: false
